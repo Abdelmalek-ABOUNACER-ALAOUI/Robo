@@ -3,12 +3,13 @@ main{
     position: relative;
     width: 1280px;
     height: 720px;
+    position: absolute;
 }
 .header{
     display: flex;
     justify-content: space-between;
     margin-right: 100px;
-    margin-left: 100px; 
+    margin-left: 55px; 
 }
 .header > div{
     
@@ -18,6 +19,11 @@ li{
     display: inline-block;
     color:  white;
     margin-left: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
     
 }
 #logo li{
