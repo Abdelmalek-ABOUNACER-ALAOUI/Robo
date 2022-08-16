@@ -11,7 +11,7 @@ main{
     margin-left: 100px; 
 }
 .header > div{
-    display: inline-block;
+    
     margin-top: 21px; 
 }
 li{
@@ -25,4 +25,61 @@ li{
 }
 .header a{
     color: white;
+    
+}
+body{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+height: 84px;
+margin-left: 100px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 84px;
+color: #FFFFFF;
+}
+#title1{
+width: 447px;
+top: 203px;
+}
+#title2{
+width: 281px;
+top: 276px;
+
+}
+p{
+position: absolute;
+width: 299px;
+height: 101px;
+left: 101px;
+top: 362px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+color: #FFFFFF;
+}
+button{
+position: absolute;
+width: 150px;
+height: 48px;
+left: 100px;
+top: 503px;
+background: linear-gradient(90deg, #C436B9 -9.67%, #1FC4E0 113%);
+border-radius: 50px;
+}
+.image{
+position: absolute;
+width: 463px;
+height: 510px;
+left: 717px;
+top: 138px;
+background: linear-gradient(0deg, #4C1198 -14.17%, #3426AE 95.5%, #173EC8 119.1%);;
+}
+.content{
+
 }
