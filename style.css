@@ -1,3 +1,28 @@
-main{
+body{
     background: linear-gradient(0deg, #4C1198 -14.17%, #3426AE 95.5%, #173EC8 119.1%);
+    position: relative;
+    width: 1280px;
+    height: 720px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px; 
+}
+.header > div{
+    display: inline-block;
+    margin-top: 21px; 
+}
+li{
+    display: inline-block;
+    color:  white;
+    margin-left: 30px;
+    
+}
+#logo li{
+    margin-left: 10px;
+}
+.header a{
+    color: white;
 }
