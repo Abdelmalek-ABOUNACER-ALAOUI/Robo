@@ -1,88 +1,73 @@
-main{
-    background: linear-gradient(0deg, #4C1198 -14.17%, #3426AE 95.5%, #173EC8 119.1%);
-    position: relative;
-    width: 1280px;
-    height: 720px;
-    position: absolute;
-}
-.header{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 100px;
-    margin-left: 55px; 
-}
-.header > div{
+*{
+    margin: 0px;
+    padding: 0px;
     
-    margin-top: 21px; 
-}
-li{
-    display: inline-block;
-    color:  white;
-    margin-left: 30px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 21px;
-    
-}
-#logo li{
-    margin-left: 10px;
-}
-.header a{
     color: white;
-    
+
 }
 body{
+    background: linear-gradient(0deg, #4C1198 -14.17%, #3426AE 95.5%, #173EC8 119.1%);
+    background-attachment: fixed;
+}
+header{
     display: flex;
     justify-content: space-between;
+    margin: 100px;
+}
+ a{
+    color: white;
+    text-decoration: none;
+    
+}
+header a{
+    margin: 30px;
+}
+.logo img{
+    width: 11px;
+height: 16.82px;
+left: 100px;
+top: 39px;
+}
+nav li{
+    display: inline-block;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    font-family: 'Poppins';
 }
 h1{
-height: 84px;
-margin-left: 100px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 56px;
-line-height: 84px;
-color: #FFFFFF;
-}
-#title1{
-width: 447px;
-top: 203px;
-}
-#title2{
-width: 281px;
-top: 276px;
+    line-height: 84px;
+    font-style: normal;
+    width: 447px;
+    left: 100px;
+    top: 203px;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 84px;
 
 }
 p{
-position: absolute;
 width: 299px;
 height: 101px;
 left: 101px;
 top: 362px;
+
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
 line-height: 18px;
-color: #FFFFFF;
 }
 button{
-position: absolute;
-width: 150px;
-height: 48px;
-left: 100px;
-top: 503px;
-background: linear-gradient(90deg, #C436B9 -9.67%, #1FC4E0 113%);
-border-radius: 50px;
+    background: linear-gradient(90deg, #C436B9 -9.67%, #1FC4E0 113%);
+    width: 150px;
+    height: 48px;
+    font-size: 18px;
+    border-radius: 50px;
 }
 .image{
-position: absolute;
 width: 463px;
 height: 510px;
-left: 717px;
-top: 138px;
 }
-
