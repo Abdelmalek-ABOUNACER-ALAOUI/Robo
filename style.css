@@ -1,13 +1,14 @@
 *{
     margin: 0px;
     padding: 0px;
-    
     color: white;
+    font-family: 'poppins';
 
 }
 body{
     background: linear-gradient(0deg, #4C1198 -14.17%, #3426AE 95.5%, #173EC8 119.1%);
     background-attachment: fixed;
+    
 }
 header{
     display: flex;
@@ -15,18 +16,12 @@ header{
     margin: 100px;
 }
  a{
-    color: white;
     text-decoration: none;
-    
-}
-header a{
     margin: 30px;
 }
 .logo img{
     width: 11px;
 height: 16.82px;
-left: 100px;
-top: 39px;
 }
 nav li{
     display: inline-block;
@@ -34,31 +29,18 @@ nav li{
 main{
     display: flex;
     justify-content: space-between;
-    margin: 100px;
-    font-family: 'Poppins';
+    margin: 100px; 
 }
 h1{
     line-height: 84px;
-    font-style: normal;
-    width: 447px;
-    left: 100px;
-    top: 203px;
     font-weight: 600;
     font-size: 56px;
-    line-height: 84px;
-
 }
 p{
-width: 299px;
-height: 101px;
-left: 101px;
-top: 362px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 18px;
+    width: 299px;
+    height: 101px;
+    font-size: 12px;
+    line-height: 18px;
 }
 button{
     background: linear-gradient(90deg, #C436B9 -9.67%, #1FC4E0 113%);
@@ -66,6 +48,7 @@ button{
     height: 48px;
     font-size: 18px;
     border-radius: 50px;
+    border-style: none;
 }
 .image{
 width: 463px;
