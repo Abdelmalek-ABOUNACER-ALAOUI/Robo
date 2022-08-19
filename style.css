@@ -7,13 +7,13 @@
 }
 body{
     background: linear-gradient(0deg, #4C1198 -14.17%, #3426AE 95.5%, #173EC8 119.1%);
-    background-attachment: fixed;
-    
+    background-attachment: fixed;  
+     
 }
 header{
     display: flex;
     justify-content: space-between;
-    margin: 100px;
+    margin: 100px; 
 }
  a{
     text-decoration: none;
@@ -29,16 +29,17 @@ nav li{
 main{
     display: flex;
     justify-content: space-between;
-    margin: 100px; 
+    margin: 100px;
 }
 h1{
+    width: 400px;
     line-height: 84px;
     font-weight: 600;
     font-size: 56px;
 }
 p{
     width: 299px;
-    height: 101px;
+    margin-bottom: 40px;
     font-size: 12px;
     line-height: 18px;
 }
