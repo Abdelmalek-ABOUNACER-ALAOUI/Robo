@@ -13,6 +13,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 100px; 
 }
  a{
@@ -21,7 +22,7 @@ header{
 }
 .logo img{
     width: 11px;
-height: 16.82px;
+    height: 16.82px;
 }
 nav li{
     display: inline-block;
@@ -38,7 +39,7 @@ h1{
     font-size: 56px;
 }
 p{
-    width: 275px;
+    width: 275 px;
     margin-bottom: 40px;
     font-size: 12px;
     line-height: 18px;
