@@ -2,39 +2,36 @@
     margin: 0px;
     padding: 0px;
     color: white;
-    font-family: 'poppins';
-
+    font-family: 'Poppins';
 }
 body{
     background: linear-gradient(0deg, #4C1198 -14.17%, #3426AE 95.5%, #173EC8 119.1%);
-    background-attachment: fixed;  
-     
-}
-a{
-    text-decoration: none;
-    margin: 30px;
+    background-attachment: fixed;
 }
 .container{
     display: flex;
     justify-content: space-between;
     max-width: 1100px;
     height: 200px;
-    margin: auto;
+    margin: 0 auto;
 }
 header .container{
     align-items: center;
-    
 }
 .logo img{
     width: 11px;
     height: 16.82px;
+}
+a{
+    text-decoration: none;
+    margin: 30px;
 }
 ul{
     display: flex;
     list-style: none;
 }
 h1{
-    max-width: 400px;
+    max-width: 447px;
     line-height: 84px;
     font-weight: 600;
     font-size: 56px;
