@@ -18,17 +18,25 @@ body{
 header .container{
     align-items: center;
 }
+.logo a{
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+}
 .logo img{
     width: 11px;
     height: 16.82px;
+
 }
 a{
     text-decoration: none;
-    margin: 30px;
+    font-size: 14px;
+    font-weight: 500;
 }
 ul{
     display: flex;
     list-style: none;
+    gap: 30px;
 }
 h1{
     max-width: 447px;
@@ -41,14 +49,16 @@ p{
     margin-bottom: 40px;
     font-size: 12px;
     line-height: 18px;
+    font-weight: 400;
 }
 button{
     background: linear-gradient(90deg, #C436B9 -9.67%, #1FC4E0 113%);
-    width: 150px;
-    height: 48px;
+    text-align: center;
+    padding: 10px 23px 11px;
     font-size: 18px;
     border-radius: 50px;
     border-style: none;
+    
 }
 .image{
 max-width: 463px;
